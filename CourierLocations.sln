@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierLocations", "CourierLocations\CourierLocations.csproj", "{82935EB7-D358-4AE2-AF52-C022B39603B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierLocations.Api", "CourierLocations.Api\CourierLocations.Api.csproj", "{82935EB7-D358-4AE2-AF52-C022B39603B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierLocations.Domain", "CourierLocations.Domain\CourierLocations.Domain.csproj", "{E7C9D017-6D54-47DD-AD60-70EF85AACFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierLocations.Application", "CourierLocations.Application\CourierLocations.Application.csproj", "{60FB0D09-ECA2-4405-8B5E-D1D802C799E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierLocations.Infrastructure", "CourierLocations.Infrastructure\CourierLocations.Infrastructure.csproj", "{B8F9D563-3984-47DA-9CAF-63B445C6BBAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{82935EB7-D358-4AE2-AF52-C022B39603B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82935EB7-D358-4AE2-AF52-C022B39603B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82935EB7-D358-4AE2-AF52-C022B39603B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C9D017-6D54-47DD-AD60-70EF85AACFFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C9D017-6D54-47DD-AD60-70EF85AACFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C9D017-6D54-47DD-AD60-70EF85AACFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C9D017-6D54-47DD-AD60-70EF85AACFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FB0D09-ECA2-4405-8B5E-D1D802C799E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FB0D09-ECA2-4405-8B5E-D1D802C799E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FB0D09-ECA2-4405-8B5E-D1D802C799E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FB0D09-ECA2-4405-8B5E-D1D802C799E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F9D563-3984-47DA-9CAF-63B445C6BBAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F9D563-3984-47DA-9CAF-63B445C6BBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F9D563-3984-47DA-9CAF-63B445C6BBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F9D563-3984-47DA-9CAF-63B445C6BBAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
